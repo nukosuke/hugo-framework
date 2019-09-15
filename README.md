@@ -8,6 +8,16 @@ In your Hugo project root,
 $ git clone git@github.com:nukosuke/hugo-framework.git theme/framework
 ```
 
+## Setup
+
+```toml
+[module]
+
+    [[module.mounts]]
+    source = "node_modules/bulma"
+    target = "assets/stylesheets/bulma"
+```
+
 ## Stack
 
 - [Bulma](https://bulma.io/)
