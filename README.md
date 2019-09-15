@@ -15,10 +15,12 @@ $ git clone https://github.com/nukosuke/hugo-framework.git theme/framework
   theme = "framework"
   
   [module]
-
     [[module.mounts]]
-    source = "node_modules/bulma"
-    target = "assets/stylesheets/bulma"
+      source = "assets/stylesheets"
+      target = "assets/stylesheets"
+    [[module.mounts]]
+      source = "node_modules/bulma"
+      target = "assets/stylesheets/bulma"
   ```
 - `package.json`
   ```json
