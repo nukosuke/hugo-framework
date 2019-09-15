@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/nukosuke/hugo-framework/issues"
   },
-  "homepage": "https://github.com/nukosuke/hugo-framework#readme"
+  "homepage": "https://github.com/nukosuke/hugo-framework#readme",
+  "devDependencies": {
+    "ts-loader": "^6.1.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
 }
