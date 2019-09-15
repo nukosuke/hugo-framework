@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="columns">
+  <div class="column is-9">
+    <main class="tile is-child box">
+      <article class="content">
+        <h1 class="title is-3">{{ .Page.Title }}</h1>
+        <span>{{ .Date.Format "January 2, 2006" }} &middot;&nbsp;{{ .ReadingTime }} min read</span>
+        <hr/>
+        {{ .Content }}
+      </article>
+    </main>
+    <hr/>
+    {{ if eq .Type "post" }}<div id="disqus_thread"></div>{{ end }}
+  </div>
+  <aside class="column is-3">
+    {{ .TableOfContents }}
+  </aside>
+</div>
+{{ end }}

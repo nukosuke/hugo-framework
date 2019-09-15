@@ -9,7 +9,6 @@ homepage = "http://example.com/"
 tags = ["bulma", "turbolinks", "stimulus", "typescript", "webpack"]
 features = []
 min_version = "0.57"
-theme = "framework"
 
 [author]
   name = "nukosuke"
