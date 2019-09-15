@@ -1,4 +1,5 @@
 {{ $bulma := resources.Get "stylesheets/bulma/bulma.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $style := resources.Get "stylesheets/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -6,5 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $bulma.Permalink }}" />
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
   <script defer src="{{ "javascripts/framework.bundle.js" | absURL }}"></script>
 </head>
