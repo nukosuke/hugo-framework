@@ -5,7 +5,7 @@
 In your Hugo project root,
 
 ```shell
-$ git clone git@github.com:nukosuke/hugo-framework.git theme/framework
+$ git clone https://github.com/nukosuke/hugo-framework.git theme/framework
 ```
 
 ## Setup
