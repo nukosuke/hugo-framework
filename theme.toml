@@ -4,18 +4,12 @@
 name = "Framework"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+description = "Hugo theme powered by Bulma and Stimulus"
 homepage = "http://example.com/"
-tags = []
+tags = ["bulma", "turbolinks", "stimulus", "typescript", "webpack"]
 features = []
-min_version = "0.41"
+min_version = "0.57"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "nukosuke"
+  homepage = "https://www.nukosuke.com"

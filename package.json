@@ -1,0 +1,39 @@
+{
+  "name": "hugo-framework",
+  "version": "0.0.0",
+  "description": "Hugo theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukosuke/hugo-framework.git"
+  },
+  "keywords": [
+    "hugo",
+    "bulma",
+    "turbolinks",
+    "stimulus",
+    "typescript",
+    "webpack"
+  ],
+  "author": "nukosuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nukosuke/hugo-framework/issues"
+  },
+  "homepage": "https://github.com/nukosuke/hugo-framework#readme",
+  "devDependencies": {
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "@types/turbolinks": "^5.2.0",
+    "bulma": "^0.7.5",
+    "stimulus": "^1.1.1",
+    "turbolinks": "^5.2.0"
+  }
+}
