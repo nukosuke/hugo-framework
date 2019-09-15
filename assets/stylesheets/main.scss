@@ -1,3 +1,13 @@
+html, body {
+    background: #f9f9f9;
+}
+
 #content {
     padding: 64px;
+}
+
+.hero-body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
