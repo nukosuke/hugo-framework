@@ -30,6 +30,21 @@ $ git clone git@github.com:nukosuke/hugo-framework.git theme/framework
   }
   ```
 
+And then install dependencies.
+
+```shell
+$ yarn
+```
+
+## Build
+
+```shell
+$ yarn run build
+$ hugo
+```
+
+At writing, `hugo serve` is broken by Turbolinks. The workaround is to add `--disableLiveReload`.
+
 ## Stack
 
 - [Bulma](https://bulma.io/)
