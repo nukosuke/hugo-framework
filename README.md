@@ -10,13 +10,23 @@ $ git clone git@github.com:nukosuke/hugo-framework.git theme/framework
 
 ## Setup
 
-```toml
-[module]
+- `config.toml`
+  ```toml
+  [module]
 
     [[module.mounts]]
     source = "node_modules/bulma"
     target = "assets/stylesheets/bulma"
-```
+  ```
+- `package.json`
+  ```json
+  {
+    "workspaces": ["themes/framework"],
+    "scripts": {
+      "build": "yarn workspace hugo-framework run build"
+    }
+  }
+  ```
 
 ## Stack
 
