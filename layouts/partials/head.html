@@ -1,4 +1,4 @@
-{{ $bulma := resources.Get "stylesheets/bulma/bulma.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $bulma := resources.Get "stylesheets/bulma.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 {{ $style := resources.Get "stylesheets/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <head>
   <meta charset="utf-8" />
