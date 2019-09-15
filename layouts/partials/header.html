@@ -1,7 +1,38 @@
-<header>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">HOME</a>
+<!-- partials/header -->
+<section class="hero is-dark{{ if .IsHome }} is-medium{{ end }}">
+  <div class="hero-body" style="background-image: url({{ with .Site.Params.hero_image }}{{.}}{{ else }}{{ "images/cover.jpg" | absURL }}{{ end }})">
+    <div class="container ">
+      <p class="title">
+        {{ .Site.Title }}
+      </p>
+      <p class="subtitle">
+        Subtitle
+      </p>
     </div>
-  </nav>
-</header>
+  </div>
+
+  <div class="hero-foot" style="background-color: rgba(0, 0, 0, 0.1);">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active">
+            <a href="{{ .Site.BaseURL | absURL }}">HOME</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Category</a>
+          </li>
+          <li>
+            <a>Tag</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+<!-- end of partials/header -->
