@@ -2,8 +2,18 @@ html, body {
     background: #f9f9f9;
 }
 
+#TableOfContents {
+    ul li,
+    ul ul li,
+    ul ul ul li,
+    ul ul ul ul li,
+    ul ul ul ul ul li,
+    ul ul ul ul ul ul li
+    { padding-left: 1em; }
+}
+
 #content {
-    padding: 64px;
+    padding: 48px 64px;
 }
 
 .hero-body {
