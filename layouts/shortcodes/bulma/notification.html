@@ -1,0 +1,5 @@
+<!-- shortcodes/bulma/notification -->
+<div class="notification{{ with .Get "is" }} is-{{.}}{{ end }}">
+  {{ .Inner | markdownify }}
+</div>
+<!-- end of shortcodes/bulma/notification -->
