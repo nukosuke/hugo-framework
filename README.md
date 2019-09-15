@@ -1,21 +1,21 @@
-# Hugo theme
+# Hugo Librarian theme
 
-- [Demo](https://nukosuke.github.io/hugo-framework-demo/)
-- [Demo Repo](https://github.com/nukosuke/hugo-framework-demo)
+- [Demo](https://nukosuke.github.io/hugo-librarian-demo/)
+- [Demo Repo](https://github.com/nukosuke/hugo-librarian-demo)
 
 ## Installation
 
 In your Hugo project root,
 
 ```shell
-$ git clone https://github.com/nukosuke/hugo-framework.git theme/framework
+$ git clone https://github.com/nukosuke/hugo-librarian.git theme/librarian
 ```
 
 ## Setup
 
 - `config.toml`
   ```toml
-  theme = "framework"
+  theme = "librarian"
   
   [module]
     [[module.mounts]]
@@ -28,9 +28,9 @@ $ git clone https://github.com/nukosuke/hugo-framework.git theme/framework
 - `package.json`
   ```json
   {
-    "workspaces": ["themes/framework"],
+    "workspaces": ["themes/librarian"],
     "scripts": {
-      "build": "yarn workspace hugo-framework run build"
+      "build": "yarn workspace librarian run build"
     }
   }
   ```

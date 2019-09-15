@@ -1,5 +1,5 @@
 {
-  "name": "hugo-framework",
+  "name": "librarian",
   "version": "0.0.0",
   "description": "Hugo theme",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nukosuke/hugo-framework.git"
+    "url": "git+https://github.com/nukosuke/hugo-librarian.git"
   },
   "keywords": [
     "hugo",
@@ -22,9 +22,9 @@
   "author": "nukosuke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nukosuke/hugo-framework/issues"
+    "url": "https://github.com/nukosuke/hugo-librarian/issues"
   },
-  "homepage": "https://github.com/nukosuke/hugo-framework#readme",
+  "homepage": "https://github.com/nukosuke/hugo-librarian#readme",
   "devDependencies": {
     "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",

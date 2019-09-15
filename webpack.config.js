@@ -6,7 +6,7 @@ module.exports = {
   mode: 'production',
   entry: path.resolve(__dirname, 'assets/javascripts/index.ts'),
   output: {
-    filename: 'framework.bundle.js',
+    filename: 'librarian.bundle.js',
     path: path.resolve(__dirname, 'static/javascripts'),
   },
   resolve: {

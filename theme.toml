@@ -1,11 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "framework"
+name = "librarian"
 license = "MIT"
-licenselink = "https://github.com/nukosuke/hugo-framework/blob/master/LICENSE"
+licenselink = "https://github.com/nukosuke/hugo-librarian/blob/master/LICENSE"
 description = "Hugo theme powered by Bulma and Stimulus"
-homepage = "http://example.com/"
+homepage = "https://nukosuke.github.io/hugo-librarian-demo/"
 tags = ["bulma", "turbolinks", "stimulus", "typescript", "webpack"]
 features = []
 min_version = "0.57"
