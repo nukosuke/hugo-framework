@@ -12,6 +12,8 @@ $ git clone git@github.com:nukosuke/hugo-framework.git theme/framework
 
 - `config.toml`
   ```toml
+  theme = "framework"
+  
   [module]
 
     [[module.mounts]]
