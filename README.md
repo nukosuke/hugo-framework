@@ -1,5 +1,8 @@
 # Hugo theme
 
+- [Demo](https://nukosuke.github.io/hugo-framework-demo/)
+- [Demo Repo](https://github.com/nukosuke/hugo-framework-demo)
+
 ## Installation
 
 In your Hugo project root,
