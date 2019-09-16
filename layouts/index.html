@@ -14,6 +14,7 @@
                 Published at {{ .Date.Format "January 2, 2006" }} &middot;
                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
               </p>
+              <p>{{ .Summary | plainify }}</p>
             </div>
           </div>
         </article>
