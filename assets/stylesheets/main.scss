@@ -1,5 +1,5 @@
 html, body {
-    background: #f9f9f9;
+    background: #fefefa;
 }
 
 #TableOfContents {
@@ -9,10 +9,10 @@ html, body {
     ul ul ul ul li,
     ul ul ul ul ul li,
     ul ul ul ul ul ul li
-    { padding-left: 1em; }
+    { padding-left: .8em; }
 
     a { color: gray; }
-    a:hover { color: black; }
+    a:hover { color: maroon; text-decoration: underline; }
 }
 
 #content {
