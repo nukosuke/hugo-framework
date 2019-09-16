@@ -9,7 +9,10 @@
         {{ .Content }}
       </article>
     </main>
-    {{ if eq .Type "post" }}<div id="disqus_thread"></div>{{ end }}
+    {{ if eq .Type "post" }}
+      <hr/>
+      {{ template "_internal/disqus.html" . }}
+    {{ end }}
   </div>
   <aside class="column is-3">
     {{ .TableOfContents }}
