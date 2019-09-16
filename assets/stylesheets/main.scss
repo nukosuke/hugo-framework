@@ -1,7 +1,3 @@
-html, body {
-    background: #fefefa;
-}
-
 #TableOfContents {
     ul li,
     ul ul li,
@@ -15,8 +11,8 @@ html, body {
     a:hover { color: maroon; text-decoration: underline; }
 }
 
-#content {
-    padding: 48px 64px;
+#main-block {
+    padding: 2em 0;
 }
 
 .hero-body {
