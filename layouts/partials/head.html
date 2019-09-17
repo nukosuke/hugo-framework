@@ -8,6 +8,9 @@
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $bulma.Permalink }}" />
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
   <script defer src="{{ "javascripts/librarian.bundle.js" | absURL }}"></script>
   {{ template "_internal/google_analytics_async.html" . }}
 </head>
