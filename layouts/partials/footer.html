@@ -11,9 +11,16 @@
       </div>
       <div class="column is-3">
         <h2 class="title is-4">Links</h2>
+        <ul>
+          <li><a href="https://nukosuke.com">Portfolio</a></li>
+        </ul>
       </div>
       <div class="column is-3">
         <h2 class="title is-4">Socials</h2>
+        <ul>
+          <li><i class="fa fa-twitter"></i>&nbsp;<a href="https://twitter.com/pg_nukosuke">@pg_nukosuke</a></li>
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/nukosuke">nukosuke</a></li>
+        </ul>
       </div>
       <div class="column is-3">
         <h2 class="title is-4">Contact</h2>
@@ -42,7 +49,8 @@
     <div class="columns">
       <div class="column is-full">
         <div class=" content has-text-centered">
-          <p>Copyright &copy; {{ .Site.Params.author }}</p>
+          <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}.</p>
+          <p class="credit">Powered by <a href="https://gohugo.io/" class="underline">Hugo</a>. <a class="underline" href="https://github.com/nukosuke/hugo-librarian">Librarian theme</a> by <a class="underline" href="https://twitter.com/pg_nukosuke">@pg_nukosuke</a></p>
         </div>
       </div>
     </div>
