@@ -20,3 +20,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.footer {
+    a,
+    .title,
+    .label
+    { color: white; }
+
+    a:hover { text-decoration: underline; }
+}

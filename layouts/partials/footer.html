@@ -1,5 +1,50 @@
 <footer class="footer is-dark">
-  <div class="content has-text-centered">
-    <p>Copyright &copy; {{ .Site.Params.author }}</p>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3">
+        <h2 class="title is-4">Sitemap</h2>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>Tag</a></li>
+          <li><a>Category</a></li>
+        </ul>
+      </div>
+      <div class="column is-3">
+        <h2 class="title is-4">Links</h2>
+      </div>
+      <div class="column is-3">
+        <h2 class="title is-4">Socials</h2>
+      </div>
+      <div class="column is-3">
+        <h2 class="title is-4">Contact</h2>
+        <form>
+          <div class="field">
+            <label class="label">Email</label>
+            <div control="control">
+              <input class="input" type="email" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea"></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control level-right">
+              <button class="button is-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-full">
+        <div class=" content has-text-centered">
+          <p>Copyright &copy; {{ .Site.Params.author }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
