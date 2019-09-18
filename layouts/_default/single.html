@@ -16,6 +16,8 @@
   </div>
   <aside class="column is-3">
     {{ .TableOfContents }}
+    {{ partial "aside_tags.html" . }}
+    {{ partial "aside_recent.html" . }}
   </aside>
 </div>
 {{ end }}
