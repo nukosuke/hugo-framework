@@ -8,6 +8,7 @@
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $bulma.Permalink }}" />
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}

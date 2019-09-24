@@ -1,0 +1,8 @@
+<!-- partials/aside_categories -->
+<h1 class="title is-5">Categories</h1>
+<div class="tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  <span class="tag"><a href="{{ "categories" | absURL }}/{{ $name | urlize }}">{{ $name }}</a></span>
+  {{ end }}
+</div>          
+<!-- end of partials/aside_categories -->

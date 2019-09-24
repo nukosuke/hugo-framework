@@ -20,3 +20,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.footer {
+    .title,
+    .label
+    { color: white; }
+
+    a { color: #b0b0b0; }
+    a:hover { color: white; }
+
+    .credit { font-size: 10pt; color: #b0b0b0 }
+    .underline {
+        border-bottom: 1px dotted #a0a0a0;
+        padding-bottom: 1px;
+        &:hover { border-bottom: 1px dotted white; }
+    }
+}
